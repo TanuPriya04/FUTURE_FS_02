@@ -1,0 +1,40 @@
+.saved-cities {
+  margin: 20px auto;
+  max-width: 400px;
+  background-color: #fff8e1;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.saved-cities h3 {
+  text-align: center;
+  color: #d35400;
+}
+
+.saved-cities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-cities li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.saved-cities button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #2980b9;
+  cursor: pointer;
+}
+
+.saved-cities span {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 10px;
+}
